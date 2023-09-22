@@ -1,0 +1,22 @@
+{
+  "name": "nodemailer-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pm2 start src/app.js",
+    "dev": "nodemon src/app.js -e js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.10.2",
+    "nodemailer": "^6.9.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0"
+  }
+}
